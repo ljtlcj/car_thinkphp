@@ -1,0 +1,28 @@
+.output{
+	margin: 0 auto;
+	height: 450px;
+	width: 800px;
+/*	background: lightblue;*/
+}
+.output tr td{
+	text-align: center;
+	border: solid gainsboro  1px;
+}
+.due_or_no_box{
+	width: 20%;
+	margin: 0 auto;
+}
+.due_or_no{
+	background: orangered;
+	border: solid gainsboro  1px;	
+	font-size: 14px;
+	color: white;
+}
+.due_no_table{
+	top: 30px;
+	position: absolute;	
+}
+.due_table{
+	top: 30px;
+	position: absolute;
+}

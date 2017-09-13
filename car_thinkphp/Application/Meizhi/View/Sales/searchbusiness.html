@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html style="background: #f0f0f0;">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="__PUBLIC__/Meizhi/css/CssReset.css" />
+		<link rel="stylesheet" href="__PUBLIC__/meizhi/css/search_business.css" />
+		<script type="text/javascript" src="__PUBLIC__/Meizhi/js/search_business.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Meizhi/jquery-2.1.1/jquery.js" ></script>
+		<title>查看业务</title>
+	</head>
+	<body>
+		<div class="first" >
+				<div class="bigests" >
+				<table class="big">
+					<tr class="big2">
+						<td>车牌号码</td>
+						<td>联系人</td>
+						<td style="width: 150px;">联系方式</td>
+						<td>购买单位</td>
+						<td>总金额</td>
+						<td>收费日期</td>
+						<td>到期日期</td>
+						<td>备注</td>
+						<td>操作</td>
+					</tr>
+					<volist name="data" id="vol">
+						<tr>
+							<td>{$vol.car_number}</td>
+							<td>{$vol.linkman}</td>
+							<td>{$vol.contact_way}</td>
+							<td>{$vol.buyer}</td>
+							<td>{$vol.receivable_amount}</td>
+							<td>{$vol.get_money_date}</td>
+							<td>{$vol.vaild_date}</td>
+							<td>{$vol.to_remark}</td>
+							<td><a href="__CONTROLLER__/searchbusiness/id/{$vol.id}" style="color: blue;">删除</a></td>
+						</tr>
+					</volist>
+				</table>
+ 			        <div class="pages">  
+			            {$page}  
+			        </div>  
+				</div>
+				<div class="search_button">
+					<form action="{:U('Sales/export_searchbusiness')}">
+						<input type="submit" value="导出EXCEL" class="search_submit" style="position: fixed; top: 0%;"  />
+					</form>
+				</div>
+			</div>
+	</body>
+</html>
+                    

@@ -1,0 +1,154 @@
+.the_biggest{
+	height: 500px;
+	width: 1050px;
+	background: #f0f0f0;
+}
+.the_biggest input{
+	border: solid 2px lightcyan;
+}
+/*第一行 [录单日期][单据编号]*/
+.Date_and_Number{
+	width: 100%;
+	height: 50px;
+}
+.date_and_number_button{
+	width: 70px;
+	height: 20px;
+	margin-top: 5px;	
+	margin-left: 20px;
+}
+.date_and_number_text{
+	height: 15px;
+	width: 200px;
+	margin-top: 13px;	
+	margin-left: 5px;	
+}
+.receipts_number_button{
+	width: 70px;
+	height: 20px;
+	margin-top: 5px;	
+	margin-left: 20px;	
+	line-height: 20px;
+}
+.receipts_number_text{
+	width: 200px;
+	height: 15px;
+	margin-left: 5px;		
+}
+/*第二行 [购买单位]*/
+.Buyer{
+	width: 100%;
+	height: 50px;
+}
+.buyer_button{
+	width: 70px;
+	height: 20px;
+	margin-top: 15px;	
+	margin-left: 20px;	
+	line-height: 20px;
+}
+.buyer_text{
+	width: 400px;
+	height: 15px;
+	margin-left: 5px;		
+}
+/*第三行 [经手人][附加说明]*/
+.Person_handing{
+	width: 100%;
+	height: 50px;
+}
+.person_handing_button{
+	width: 70px;
+	height: 20px;
+	margin-top: 15px;	
+	margin-left: 20px;	
+	line-height: 20px;
+}
+.person_handing_text{
+	width: 200px;
+	height: 15px;
+	margin-left: 5px;		
+}
+.explain_button{
+	width: 70px;
+	height: 20px;
+	margin-top: 15px;	
+	margin-left: 20px;	
+	line-height: 20px;
+}
+.explain_text{
+	width: 400px;
+	height: 15px;
+	margin-left: 5px;		
+}
+/*第四行 [摘要]*/
+.Summary{
+	width: 100%;
+	height: 50px;
+}
+.summary_button{
+	width: 70px;
+	height: 20px;
+	margin-top: 15px;	
+	margin-left: 20px;	
+	line-height: 20px;	
+}
+.summary_text{
+	width: 400px;
+	height: 15px;
+	margin-left: 5px;	
+}
+/*第五行 [填写表格]*/
+.Table{
+	width: 100%;
+	height: 200px;
+	background: lightcoral;
+}
+
+/*第六行 [收款账户]][收款金额]*/
+.Money{
+	width: 100%;
+	height: 100px;
+}
+.summary_number{
+	margin-left: 850px;
+	padding-top: 10px;
+}
+.summary_money{
+	margin-left: 850px;
+	margin-top: 5px;
+}
+.receipt_account_button{
+	width: 70px;
+	height: 20px;
+	margin-top: 5px;	
+	margin-left: 20px;
+}
+.receipt_account_text{
+	width: 200px;
+	height: 15px;
+	margin-top: 13px;	
+	margin-left: 5px;	
+}
+.receipt_money_button{
+	width: 70px;
+	height: 20px;
+	margin-top: 5px;	
+	margin-left: 20px;	
+	line-height: 20px;
+}
+.receipt_money_text{
+	width: 200px;
+	height: 15px;	
+	margin-left: 5px;		
+}
+.print{
+	width: 60px;
+	height: 20px;
+	margin-left: 200px;
+}
+.exit{
+	width: 60px;
+	height: 20px;
+	margin-left: 10px;
+}

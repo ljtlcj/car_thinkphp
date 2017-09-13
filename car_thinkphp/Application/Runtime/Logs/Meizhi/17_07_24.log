@@ -1,0 +1,18 @@
+[ 2017-07-24T09:43:49+08:00 ] 127.0.0.1 /index.php/Meizhi/Sales/del_business_table/id/376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026820s ]
+ERR: 非法操作:del_business_table
+
+[ 2017-07-24T09:47:00+08:00 ] 127.0.0.1 /index.php/Meizhi/Sales/search/id/'+a+'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+ERR: 非法操作:search
+

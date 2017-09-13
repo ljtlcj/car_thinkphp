@@ -1,0 +1,28 @@
+﻿.the_biggest{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+/*	background: lightcoral;*/
+}
+.time{
+	margin-left: 37.5%;
+	width: 25%;
+	height: 200px;
+/*	background: lightblue;*/
+}
+.time input{
+	border: solid 1px a9a9a9;
+	border-radius: 8px;
+}
+.start_time{
+	margin-top: 40px;
+	float: right;	
+}
+.end_time{
+	margin-top: 40px;
+	float: right;
+}
+.money{
+	margin-top: 40px;	
+	float: right;
+}

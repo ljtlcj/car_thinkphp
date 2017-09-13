@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<?php
+	session_start();
+?>
+<html style="background: #f0f0f0;">
+	<head>
+		<meta charset="UTF-8">
+		<title>员工管理-查看员工</title>
+    		<meta name="renderer" content="webkit" />
+		<meta name="renderer" content="ie-stand" />
+		<link rel="stylesheet" href="__PUBLIC__/Meizhi/css/CssReset.css" />
+		<link rel="stylesheet" href="__PUBLIC__/meizhi/css/find_staffs.css" />
+		<script type="text/javascript" src="__PUBLIC__/Meizhi/js/jquery-2.1.1/jquery.min.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/Meizhi/js/find_staff.js" ></script>
+		
+	</head>
+	<body >
+		
+			<div class="first"  >
+				<div class="bigests" >
+					<table class="big">
+						<tr class="big2">
+							<td>职位</td> <td>姓名</td> <td colspan="2">操作</td>
+						</tr>
+						
+						<volist name='data' id="vol">
+							<tr class='big2'>
+								<td>
+									<if condition="$vol.power eq 2">老板
+									<elseif condition="$vol.power eq 3"/>财务员
+									<elseif condition="$vol.power eq 4"/>业务员</if>
+								</td> 
+								<td>
+									{$vol.username}
+								</td> 
+								<td >
+									<if condition="($vol.power eq 3) OR($vol.power eq 4)">
+										<a href="__CONTROLLER__/find_staff/id/{$vol.id}" style="color: blue;">删除</a>
+									</if>
+								</td>
+							</tr>
+						</volist>
+					</table>
+					<!--<div style="margin-left: 135px; margin-top: 25px;">-->
+			        <div class="pages">  
+			            {$page}  
+			        </div>  
+					 
+				</div>
+				
+					<div class="search_button"><a href="{:U('Staff/export')}">导出Excell</a></div>
+		
+			</div>
+
+	</body>
+</html>

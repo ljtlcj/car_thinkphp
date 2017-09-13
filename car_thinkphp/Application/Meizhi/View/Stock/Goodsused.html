@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="__PUBLIC__/Meizhi/css/CssReset.css" />
+		<link rel="stylesheet" href="../../../../Public/meizhi/css/Goodsused.css" />
+	</head>
+	<body style="background: #F0F0F0;">
+		<div class="first" >
+				<div class="bigests" >
+					<table class="big">
+						<tr class="big2">
+							<td style="width: 300px;">商品</td> <td>数量</td> <td style="width: 300px;">备注</td>  
+						</tr>
+						<volist name="data" id="vol">
+							<tr>
+								<td>{$vol.goods_name}</td>
+								<td>{$vol.sum(number)}</td>
+								<td>{$vol.to_remark}</td>
+							</tr>
+						</volist>
+					</table>
+				    <div class="pages">  
+				        {$page}  
+				    </div> 				
+				</div>
+			<form action="{:U('Stock/export_goodsused')}">
+				<div class="search_button"><input type="submit" value="导出EXCEL"  class="search_submit" /></div>
+			</from>
+		</div>
+	</body>
+</html>

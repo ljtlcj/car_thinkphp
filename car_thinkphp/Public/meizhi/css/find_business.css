@@ -1,0 +1,33 @@
+.the_biggest{
+	position: absolute;
+	width: 1050px;
+	height: 700px;
+	background: #f0f0f0;
+}
+.delete_box{
+	margin: 0 auto;
+	width:  380px;
+	height: 200px;
+	margin-top: 100px;
+/*	background: lightcyan;*/
+}
+.delete_car_number{
+	border: solid 1px #A9A9A9;
+	width: 220px;
+	border-radius: 5px;
+}
+.delete_sim{
+	border: solid 1px #A9A9A9;
+	width: 222px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.delete_submit{
+	width: 100px;
+	height: 25px;
+	border-radius: 5px;	
+	margin-left: 120px;
+	margin-top: 20px;
+	background: orangered;
+	color: white;
+}

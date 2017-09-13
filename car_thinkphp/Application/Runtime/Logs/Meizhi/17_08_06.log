@@ -1,0 +1,1177 @@
+[ 2017-08-06T16:18:48+08:00 ] 127.0.0.1 /index.php/meizhi/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2017-08-06T16:18:48+08:00 ] 127.0.0.1 /index.php/meizhi/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-08-06T16:18:56+08:00 ] 127.0.0.1 /index.php/Meizhi/Login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0852s ]
+SQL: SELECT * FROM `login` WHERE ( password = 'e10adc3949ba59abbe56e057f20f883e' and username='老板' ) LIMIT 1   [ RunTime:0.0026s ]
+
+[ 2017-08-06T16:18:56+08:00 ] 127.0.0.1 /index.php/Meizhi/Main/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\17b91ac99d3c950c52356bac9aa45bd9.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003533s ]
+
+[ 2017-08-06T16:19:00+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_no_due.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0727s ]
+SQL: SELECT * FROM `sale` WHERE `sign` = '以用'  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\fdaa15ecec9744f04a4a4301f193edb3.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2017-08-06T16:19:04+08:00 ] 127.0.0.1 /index.php/Meizhi/Staff/find_staff.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `login` ORDER BY power LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\c316d59e6aba84c6cf40742631e6b151.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001701s ]
+
+[ 2017-08-06T16:19:09+08:00 ] 127.0.0.1 /index.php/Meizhi/Money/money.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `add_goods` [ RunTime:0.0549s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `add_goods` WHERE ( month=01 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `add_goods` WHERE ( month=01 ) AND `year` = '2017'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `add_goods` WHERE ( month=02 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `add_goods` WHERE ( month=02 ) AND `year` = '2017'  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `add_goods` WHERE ( month=03 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `add_goods` WHERE ( month=03 ) AND `year` = '2017'  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `add_goods` WHERE ( month=04 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `add_goods` WHERE ( month=04 ) AND `year` = '2017'  [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `add_goods` WHERE ( month=05 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `add_goods` WHERE ( month=05 ) AND `year` = '2017'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `add_goods` WHERE ( month=06 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `add_goods` WHERE ( month=06 ) AND `year` = '2017'  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `add_goods` WHERE ( month=07 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `add_goods` WHERE ( month=07 ) AND `year` = '2017'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `add_goods` WHERE ( month=08 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `add_goods` WHERE ( month=08 ) AND `year` = '2017'  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `add_goods` WHERE ( month=09 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `add_goods` WHERE ( month=09 ) AND `year` = '2017'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `add_goods` WHERE ( month=10 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `add_goods` WHERE ( month=10 ) AND `year` = '2017'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `add_goods` WHERE ( month=11 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `add_goods` WHERE ( month=11 ) AND `year` = '2017'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `add_goods` WHERE ( month=12 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `add_goods` WHERE ( month=12 ) AND `year` = '2017'  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: sum_01 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: sum_02 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: sum_03 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: sum_04 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: sum_05 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 70 行.
+NOTIC: [8] Undefined variable: sum_06 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: sum_07 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: sum_08 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: sum_09 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 87 行.
+NOTIC: [8] Undefined variable: sum_12 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` WHERE ( month=01 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sale` WHERE `year` = '2017'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` WHERE ( month=02 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sale` WHERE ( month=02 ) AND `year` = '2017'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` WHERE ( month=03 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sale` WHERE ( month=03 ) AND `year` = '2017'  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` WHERE ( month=04 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sale` WHERE ( month=04 ) AND `year` = '2017'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` WHERE ( month=05 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sale` WHERE ( month=05 ) AND `year` = '2017'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` WHERE ( month=06 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sale` WHERE ( month=06 ) AND `year` = '2017'  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` WHERE ( month=07 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sale` WHERE ( month=07 ) AND `year` = '2017'  [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` WHERE ( month=08 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sale` WHERE ( month=08 ) AND `year` = '2017'  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` WHERE ( month=09 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sale` WHERE ( month=09 ) AND `year` = '2017'  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` WHERE ( month=10 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sale` WHERE ( month=10 ) AND `year` = '2017'  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` WHERE ( month=11 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sale` WHERE ( month=11 ) AND `year` = '2017'  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` WHERE ( month=12 ) AND `year` = '2017' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sale` WHERE ( month=12 ) AND `year` = '2017'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: sum_sale_07 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 180 行.
+NOTIC: [8] Undefined variable: sum_sale_08 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 184 行.
+NOTIC: [8] Undefined variable: sum_sale_09 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 188 行.
+NOTIC: [8] Undefined variable: sum_sale_10 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 192 行.
+NOTIC: [8] Undefined variable: sum_sale_11 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: sum_sale_12 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 200 行.
+NOTIC: [8] Undefined variable: sum_sale_01 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 216 行.
+NOTIC: [8] Undefined variable: sum_sale_02 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 217 行.
+NOTIC: [8] Undefined variable: sum_sale_03 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 218 行.
+NOTIC: [8] Undefined variable: sum_sale_04 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 219 行.
+NOTIC: [8] Undefined variable: sum_sale_05 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 220 行.
+NOTIC: [8] Undefined variable: sum_sale_06 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 221 行.
+NOTIC: [8] Undefined variable: sum_10 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 225 行.
+NOTIC: [8] Undefined variable: sum_11 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Meizhi\Controller\MoneyController.class.php 第 226 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: sum_sale_01 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 20 行.
+NOTIC: [8] Undefined variable: sum_01 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 20 行.
+NOTIC: [8] Undefined variable: sum_sale_02 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 21 行.
+NOTIC: [8] Undefined variable: sum_02 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 21 行.
+NOTIC: [8] Undefined variable: sum_sale_03 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 22 行.
+NOTIC: [8] Undefined variable: sum_03 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 22 行.
+NOTIC: [8] Undefined variable: sum_sale_04 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 23 行.
+NOTIC: [8] Undefined variable: sum_04 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 23 行.
+NOTIC: [8] Undefined variable: sum_sale_05 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 24 行.
+NOTIC: [8] Undefined variable: sum_05 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 24 行.
+NOTIC: [8] Undefined variable: sum_sale_06 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 25 行.
+NOTIC: [8] Undefined variable: sum_06 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 25 行.
+NOTIC: [8] Undefined variable: sum_sale_07 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 26 行.
+NOTIC: [8] Undefined variable: sum_07 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 26 行.
+NOTIC: [8] Undefined variable: sum_sale_08 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 27 行.
+NOTIC: [8] Undefined variable: sum_08 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 27 行.
+NOTIC: [8] Undefined variable: sum_sale_09 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 28 行.
+NOTIC: [8] Undefined variable: sum_09 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 28 行.
+NOTIC: [8] Undefined variable: sum_sale_10 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 29 行.
+NOTIC: [8] Undefined variable: sum_10 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 29 行.
+NOTIC: [8] Undefined variable: sum_sale_11 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 30 行.
+NOTIC: [8] Undefined variable: sum_11 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 30 行.
+NOTIC: [8] Undefined variable: sum_sale_12 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 31 行.
+NOTIC: [8] Undefined variable: sum_12 D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\74ac54d2ba05aa62ad4b380a4ec9238b.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-08-06T16:19:12+08:00 ] 127.0.0.1 /index.php/Meizhi/Stock/delete_stock.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2017-08-06T16:19:14+08:00 ] 127.0.0.1 /index.php/Meizhi/Stock/add_sim.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `add_goods` [ RunTime:0.0447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2017-08-06T16:19:16+08:00 ] 127.0.0.1 /index.php/Meizhi/Stock/add_equipment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `add_goods` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `add_goods` GROUP BY goods_name  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.215726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.215820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001477s ]
+
+[ 2017-08-06T16:19:16+08:00 ] 127.0.0.1 /index.php/Meizhi/Stock/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+ERR: 非法操作:jquery.js
+
+[ 2017-08-06T16:19:17+08:00 ] 127.0.0.1 /index.php/Meizhi/Stock/revise_stock.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2017-08-06T16:19:20+08:00 ] 127.0.0.1 /index.php/Meizhi/Stock/Goodsused.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `add_goods` [ RunTime:0.0172s ]
+SQL: SELECT sum(number),`goods_name`,`to_remark` FROM `add_goods` WHERE ( sign="以用" ) GROUP BY goods_name,equipment_style,specific_time  [ RunTime:0.0007s ]
+SQL: SELECT sum(number),`goods_name`,`to_remark` FROM `add_goods` WHERE ( sign="以用" ) GROUP BY goods_name,equipment_style,price,to_remark LIMIT 0,5   [ RunTime:0.0202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2017-08-06T16:19:22+08:00 ] 127.0.0.1 /index.php/Meizhi/Sales/revise_business.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-08-06T16:19:25+08:00 ] 127.0.0.1 /index.php/Meizhi/Sales/revise_business.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-08-06T16:31:58+08:00 ] 127.0.0.1 /index.php/meizhi/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-08-06T16:32:03+08:00 ] 127.0.0.1 /index.php/Meizhi/Login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0481s ]
+SQL: SELECT * FROM `login` WHERE ( password = 'e10adc3949ba59abbe56e057f20f883e' and username='老板' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-06T16:32:04+08:00 ] 127.0.0.1 /index.php/Meizhi/Main/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\17b91ac99d3c950c52356bac9aa45bd9.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006850s ]
+
+[ 2017-08-06T16:32:11+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_no_due.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `sale` WHERE `sign` = '以用'  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\fdaa15ecec9744f04a4a4301f193edb3.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002171s ]
+
+[ 2017-08-06T16:32:12+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-08-06T16:32:20+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2017-08-06T16:33:05+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2017-08-06T16:33:05+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-08-06T16:33:06+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2017-08-06T16:33:08+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_no_due.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `sale` WHERE `sign` = '以用'  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\fdaa15ecec9744f04a4a4301f193edb3.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001986s ]
+
+[ 2017-08-06T16:33:09+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2017-08-06T16:34:30+08:00 ] 127.0.0.1 /index.php/Meizhi/Main/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\17b91ac99d3c950c52356bac9aa45bd9.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2017-08-06T16:34:34+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2017-08-06T17:19:34+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_no_due.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `sale` WHERE `sign` = '以用'  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\fdaa15ecec9744f04a4a4301f193edb3.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2017-08-06T17:19:35+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_no_due.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `sale` WHERE `sign` = '以用'  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\fdaa15ecec9744f04a4a4301f193edb3.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2017-08-06T17:19:35+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-08-06T17:33:15+08:00 ] 127.0.0.1 /index.php/Meizhi/Main/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\17b91ac99d3c950c52356bac9aa45bd9.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2017-08-06T17:33:21+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_sim_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+ERR: 非法操作:renew_sim_input
+
+[ 2017-08-06T17:36:51+08:00 ] 127.0.0.1 /index.php/Meizhi/Main/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\17b91ac99d3c950c52356bac9aa45bd9.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002132s ]
+
+[ 2017-08-06T17:36:55+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_sim_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2017-08-06T17:37:23+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_sim_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2017-08-06T17:37:50+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_sim_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2017-08-06T17:38:22+08:00 ] 127.0.0.1 /index.php/Meizhi/Main/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\17b91ac99d3c950c52356bac9aa45bd9.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2017-08-06T17:38:23+08:00 ] 127.0.0.1 /index.php/Meizhi/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2017-08-06T17:38:26+08:00 ] 127.0.0.1 /index.php/Meizhi/Login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `login` WHERE ( password = 'e10adc3949ba59abbe56e057f20f883e' and username='老板' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-08-06T17:38:26+08:00 ] 127.0.0.1 /index.php/Meizhi/Main/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\17b91ac99d3c950c52356bac9aa45bd9.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2017-08-06T17:38:32+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_sim_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2017-08-06T17:39:13+08:00 ] 127.0.0.1 /index.php/Meizhi/Main/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\17b91ac99d3c950c52356bac9aa45bd9.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004003s ]
+
+[ 2017-08-06T17:39:19+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_sim_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-08-06T17:40:51+08:00 ] 127.0.0.1 /index.php/Meizhi/Main/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\PHPStudy\WWW\itcast\car_thinkphp\Application\Runtime\Cache\Meizhi\17b91ac99d3c950c52356bac9aa45bd9.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001751s ]
+
+[ 2017-08-06T17:40:55+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_sim_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-08-06T17:42:02+08:00 ] 127.0.0.1 /index.php/Meizhi/Renew/renew_sim_input.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2017-08-06T17:42:04+08:00 ] 127.0.0.1 /index.php/Meizhi/ReviseP/revise_password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2017-08-06T17:42:12+08:00 ] 127.0.0.1 /index.php/Meizhi/Stock/add_equipment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `add_goods` [ RunTime:0.0781s ]
+SQL: SELECT * FROM `add_goods` GROUP BY goods_name  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.410331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.410461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002629s ]
+
+[ 2017-08-06T17:42:12+08:00 ] 127.0.0.1 /index.php/Meizhi/Stock/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+ERR: 非法操作:jquery.js
+
+[ 2017-08-06T17:44:57+08:00 ] 127.0.0.1 /index.php/Meizhi/Stock/add_equipment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `add_goods` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `add_goods` GROUP BY goods_name  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000465s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.204455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.204560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001450s ]
+
+[ 2017-08-06T17:44:57+08:00 ] 127.0.0.1 /index.php/Meizhi/Stock/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+ERR: 非法操作:jquery.js
+
+[ 2017-08-06T17:44:58+08:00 ] 127.0.0.1 /index.php/Meizhi/Stock/Goodsnoused.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `add_goods` [ RunTime:0.0399s ]
+SQL: SELECT sum(number),`goods_name`,`to_remark`,`specific_time`,`entering_date`,`price` FROM `add_goods` WHERE ( sign="未用" ) GROUP BY goods_name,equipment_style,specific_time  [ RunTime:0.0019s ]
+SQL: SELECT sum(number),`goods_name`,`to_remark`,`specific_time`,`entering_date`,`price` FROM `add_goods` WHERE ( sign="未用" ) GROUP BY goods_name,equipment_style,specific_time LIMIT 0,4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2017-08-06T17:45:00+08:00 ] 127.0.0.1 /index.php/Meizhi/Stock/add_sim.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `add_goods` [ RunTime:0.0350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001925s ]
+
+[ 2017-08-06T21:38:19+08:00 ] 127.0.0.1 /index.php/Meizhi/Stock/add_equipment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `add_goods` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `add_goods` GROUP BY goods_name  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001605s ]
+
+[ 2017-08-06T21:38:19+08:00 ] 127.0.0.1 /index.php/Meizhi/Stock/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+ERR: 非法操作:jquery.js
+

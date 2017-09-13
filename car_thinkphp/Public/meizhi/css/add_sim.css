@@ -1,0 +1,43 @@
+.the_biggest{
+	height: 400px;
+/*	background: pink;*/
+}
+.top{
+	width: 26%;
+	height: 80px;
+	margin: 0 auto;
+	padding-top: 5%;
+/*	background: lightblue;*/
+}
+.input_sim{
+	width: 160px;
+	border-radius: 5px;
+	border: solid 1px darkgrey;
+}
+.submit{
+	width: 60px;
+	height: 30px;
+	color: white;
+	border-radius: 8px;
+	margin-left:35% ; 
+	margin-top: 5%;
+	background: orangered;
+/*	font-size: 14px;*/
+}
+.bottom{
+	position: fixed;
+	width: 40%;
+	height: 30px;
+	top: 55%;
+/*	background: gold;*/
+}
+.submit_excel{
+	width: 60px;
+	height: 30px;
+	color: white;
+	border-radius: 8px;
+	background: orangered;	
+}
+.file{
+	border: solid 1px darkgrey;
+}

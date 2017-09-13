@@ -1,0 +1,105 @@
+﻿.manager{
+	position: absolute;
+	width: 350px;
+	height: 260px;
+	top: 30%;
+	left: 38%;
+	background: rgba(232,222,231,0.2);
+}
+.title_login{
+	margin-top: 10px;
+	margin-left: 155px;
+	height: 50px;
+	font-size: 20px;
+	color: white;
+	line-height: 50px;
+	font-weight: bold;
+}
+.login_username{
+	width: 100%;
+	height: 40px;
+	margin-top: 15px;
+	/*background: lightcoral;*/
+	position: relative;
+}
+.login_password{
+	width: 100%;
+	height: 40px;
+	margin-top: 15px;
+	position: relative;
+	/*background: lightgray;*/
+}
+.login_submit{
+	width: 100%;
+	height: 40px;
+	margin-top: 15px;
+	/*background: lightgreen;*/
+}
+
+.login_username .username{
+	width: 240px;
+	height: 35px;
+	margin-left: 55px;
+	border-radius: 10px;
+	background: white;
+	box-sizing: border-box;
+	padding-left: 35px;
+}
+
+.choice_manager_login{
+	width: 18%;
+	height: 30px;
+	float: left;
+	margin-left: 7%;
+	background-color: #D1EEEE;
+	color: black;
+	border-radius: 10px;
+	border: 1px solid #D1EEEE;
+}
+.person_photo{
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	top: 5px;
+    left: 60px;
+    display: block;
+}
+.person{
+	height: 25px;
+	width: 25px;
+	display: block;
+}
+.login_password .password{
+	width: 240px;
+	height: 35px;
+	margin-left: 55px;
+	border-radius: 10px;
+	background: white;
+	box-sizing: border-box;
+	padding-left: 35px;
+}
+.login_submit .login{
+	width: 240px;
+	height: 35px;
+	margin-left: 55px;
+	border-radius: 10px;
+	background: #f8534f;
+	color: white;
+}
+.key_photo{
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	top: 5px;
+    left: 60px;
+    display: block;
+}
+.key{
+	height: 25px;
+	width: 25px;
+	display: block;
+}
+.background_img{
+	width: 100%;
+	height: 100%;
+}

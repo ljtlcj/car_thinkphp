@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<?php
+	session_start();
+?>
+<html style="background: #f0f0f0;">
+	<head>
+		<meta charset="UTF-8">
+		<title>续费业务</title>
+    		<meta name="renderer" content="webkit" />
+		<meta name="renderer" content="ie-stand" />
+		<link rel="stylesheet" href="__PUBLIC__/Meizhi/css/CssReset.css" />
+<!--		<link rel="stylesheet" href="__PUBLIC__/meizhi/css/renew.css" />-->
+		<link rel="stylesheet" href="../../../../Public/meizhi/css/renew_due.css" />
+		<script type="text/javascript" src="__PUBLIC__/Meizhi/js/jquery-2.1.1/jquery.min.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/Meizhi/js/renew_due.js" ></script>
+		
+	</head>
+	<body >
+		<div class="output">
+			<div class="due_or_no_box">
+				<select class="due_or_no">
+					<option>未到期</option>
+					<option>已经到期</option>
+				</select>
+			</div>
+			<table style="width: 100%;">
+				<tr>
+					<td>商品名称</td>
+					<td>有效时间</td>
+					<td>状态</td>
+					<td>是否续费</td>
+				</tr>
+				<volist name="temp_data" id="vol">
+					<tr>
+						<td>{$vol.goods_name}</td>
+						<td>{$vol.vaild_date}</td>
+						<td>
+							已经到期
+						</td>
+						<td>续费</td>						
+					</tr>
+
+				</volist>
+			</table>
+		</div>
+	</body>
+</html>

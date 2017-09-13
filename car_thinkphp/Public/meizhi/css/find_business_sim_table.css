@@ -1,0 +1,631 @@
+.biggest_box{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	float: left;
+}
+.left_blue{
+	width: 16%;
+	height: 100%;
+	background: deepskyblue;
+	float: left;
+	position: relative;
+}
+
+.function_one{
+	margin-top: 100px;
+	width: 100%;
+	height: 36px;
+}
+.business_management{
+	width: 100%;
+	height: 100%;
+	background: rgba(232,222,231,0.2);
+	font-size: 27px;
+	font-weight: bold;
+	color: white;
+}
+.add_client{
+	width: 75%;
+	height: 4.5%;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;
+}
+.search_business{
+	width: 75%;
+	height: 4.5%;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;
+}
+.business_management_find{
+	width: 75%;
+	height: 4.5%;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;	
+}
+.business_management_revise{
+	width: 75%;
+	height: 4.5%;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;	
+}
+.business_management_delete{
+	width: 75%;
+	height: 4.5%;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;	
+}
+.search_business_title{
+	position: absolute;
+	left: 16%;
+	width: 84%;
+	height: 100%;
+}
+.title_word
+{
+	margin-top: 51px;
+	height: 50px;
+	width: 100%;
+	font-size: 25px;
+	line-height: 50px;
+    box-sizing: border-box;
+	color: white;
+	padding-left: 30px ;
+	background:grey;
+}
+/*上面是业务管理 下面是SIM卡库*/
+.function_two{
+	margin-top: 10%;
+	width: 100%;
+	height: 36px;
+}
+.SIM_database{
+	width: 100%;
+	height: 100%;
+	background: rgba(232,222,231,0.2);
+	font-size: 27px;
+	font-weight: bold;
+	color: white;
+}
+.SIM_find{
+	width: 75%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;
+}
+.SIM_leading_in{
+	width: 75%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;
+}
+.SIM_delete{
+	width: 75%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;	
+}
+.SIM_find_unspent{
+	width: 75%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;
+}
+.SIM_revise{
+	width: 75%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;	
+}
+.equipment_delete{
+	width: 75%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;	
+}
+/*上面是SIM卡库 下面是设备库*/
+.function_three{
+	margin-top: 10%;
+	width: 100%;
+	height: 36px;
+}
+.equipment_database{
+	width: 100%;
+	height: 100%;
+	background: rgba(232,222,231,0.2);
+	font-size: 27px;
+	font-weight: bold;
+	color: white;
+}
+.equipment_find_unspent{
+	width: 75%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;	
+}
+.equipment_find_used{
+	width: 75%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;	
+}
+.equipment_add{
+	width: 75%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;	
+}
+/*//-----------------------------------------//*/
+.equipment_add1{
+	width: 60%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 20%;	
+}
+.equipment_add2{
+	width: 60%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 20%;	
+}
+/*//-------------------------------------------------//*/
+.equipment_revise{
+	width: 75%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;		
+}
+/*上面是设备库 下面是员工管理*/
+.function_four{
+	margin-top: 10%;
+	width: 100%;
+	height: 36px;	
+}
+.staff_manages{
+	width: 100%;
+	height: 100%;
+	background: rgba(232,222,231,0.2);
+	font-size: 27px;
+	font-weight: bold;
+	color: white;	
+}
+.find_staff{
+	width: 75%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;		
+}
+.delete_staff{
+	width: 75%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;	
+}
+.add_salesman{
+	width: 75%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;		
+}
+.add_treasure{
+	width: 75%;
+	height: 23px;
+	background: rgba(232,222,231,0.2);
+	color: white;
+	font-size: 16px;
+	border: 1px solid rgba(232,222,231,0.2);
+	margin-left: 12.5%;		
+}
+
+
+.cout{ 
+	width: 100%;
+	height: 700px;
+	font-size: 1.1em;
+}
+.cout input{
+	border: 1px solid darkgray;
+	border-radius: 5px;
+}
+.cout_left_box{
+	width: 100%;
+	height: 100%;
+}
+.cout_right_box{
+	width: 50%;
+	height: 100%;
+}
+.cout_left{
+	
+	width: 100%;
+	height: 200px;
+	
+}
+.cout_right{
+	width: 450px;
+	height: 200px;
+	
+}
+.cout_left input{
+	width: 100px;
+	height: 30px;
+	float: right;
+}
+.cout_right input{
+	width: 100px;
+	height: 30px;
+	float: right;
+}
+
+.car_number{
+	width: 70%;
+	float: right;
+	
+}
+.organization{
+	width: 70%;
+	float: right;
+	
+}
+.equipment_style{
+	width: 70%;
+	float: right;
+	
+}
+.contact{
+	width: 70%;
+	float: right;
+	
+}
+.phone_number{
+	width: 70%;
+	float: right;
+	
+}
+.SIM{
+	width: 70%;
+	float: right;
+	
+}
+.equipment_type{
+	width: 70%;
+	float: right;
+	
+}
+.equipment_number{
+	width: 70%;
+	float: right;
+	
+}
+.install_people{
+	width: 70%;
+	float: right;
+	
+}
+.install_date{
+	width: 120px;
+	float: right;
+	
+}
+.service_charge{
+	width: 70%;
+	float: right;
+	
+}
+.service_charge .input1{
+	width: 70px;
+	height: 30px;
+	float: right;
+}
+.service_charge .input2{
+	width: 70px;
+	height: 30px;
+	float: right;
+	margin-left: 5px;
+	margin-right: 5px;
+}	
+.service_charge .input3{
+	width: 70px;
+	height: 30px;
+	float: right;
+}		
+
+.service_data{
+	width: 70%;
+	float: right;
+}
+.service_data input{
+	width: 65%;
+}
+.charge_people{
+	width: 70%;
+	float: right;
+}
+.charge_date{
+	width: 70%;
+	float: right;
+}
+
+
+.submit_box{
+	width: 100%;
+	margin-top: 20px;
+	height: 26px;
+	float: left;
+}
+.submit{
+	margin: 0 auto;
+	width: 120px;
+	box-sizing: border-box;
+}
+.submit input{
+	margin: 0 auto;
+	width: 120px;
+	background: #f8534f;
+	color: white;
+	height: 38px;
+	border-radius: 5px;
+}
+
+
+/*//---------------------------------------*/
+.text1
+{
+background:url(../img/cal.gif) no-repeat;
+background-size: 18px 17px;
+background-position: right;
+}
+.text2{
+background:url(../img/cal.gif) no-repeat;
+background-size: 18px 17px;
+background-position: right;
+}
+.text3{
+background:url(../img/cal.gif) no-repeat;
+background-size: 18px 17px;
+background-position: right;
+}
+
+.calendar           {width:165px;*width:160px;border:2px outset #CCCCCC;padding:3px;background:white;position:absolute;z-index:50;overflow:hidden;}
+.calendar .dayArea  {width:100%;padding-top:3px;margin-top:3px;border-top:1px solid #CCCCCC;text-align:center;font-size:9pt;line-height:20px;}
+.calendar .dayArea div  {width:20px;height:20px;float:left;margin-left:1px;margin-top:1px;}
+.calendar .day      {border:1px outset #CCCCCC;cursor:pointer;}
+.calendar .act      {border:1px outset #CCCCCC;background:#FFDDCC;cursor:pointer;}
+.calendar .week     {border:1px solid white;font-weight:bold;}
+
+
+/*---------------修改密码--------------------*/
+.function_five{
+	margin-top: 10%;
+	width: 100%;
+	height: 36px;	
+}
+.revise_password{
+	width: 100%;
+	height: 100%;
+	background: rgba(232,222,231,0.2);
+	font-size: 27px;
+	font-weight: bold;
+	color: white;
+}
+
+//-----------------------------------------------------//
+button{
+	cursor:pointer;
+}
+input{
+	cursor:pointer;
+}
+button:hover{
+    color: black;
+	background-color:white;
+}
+
+.cout_right_box input{
+	cursor:text;
+}
+.cout_left_box input{
+	cursor:text;
+}
+
+/*---------------------------------------*/
+.loss_login{
+	float: right;
+	font-size: 14px;
+	margin-right: 15px;
+	color: white;
+}
+.login_man{
+	position:absolute;
+	top: 30px;
+	width: 100%;
+	height: 36px;
+	font-size: 27px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+.ziti{
+	color: white;
+}
+
+.tablenumber tr td input{
+	width: 110px;
+	height: 30px;
+}
+/*.trnumber :last-child input{
+	width:200px;
+	height: 30px;
+}*/
+/*.trnumber {
+	width:10px;
+	height: 30px;
+}*/
+#classtd{
+	width: 200px;
+	height: 30px;
+	
+}
+#inputid{
+	width: 0.1px;
+	height: 30px;
+	
+}
+#inputtd{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+}
+
+/*分页*/
+.page{
+    overflow:hidden;
+    margin:50px 0 50px 100px;;
+}
+
+.page ul a,.page ul span{
+    float:left;
+    display:inline-block;
+    padding: 0 17px;
+    height:40px;
+    width:auto;
+    border:1px solid #DDDDDD;
+    border-radius: 4px;
+    background:#fff;
+    text-align:center;
+    line-height:40px;
+    margin-right:10px;
+    font-family: "microsoft yahei" simhei sans-serif;
+    color:#7d7d7d;
+}
+
+.page ul a:hover{
+    background:#337AB7;
+    color:#fff;
+    text-decoration:none;
+}
+
+.page ul span.current{
+    background: #337AB7;
+    color:#fff;
+}
+
+
+.page ul a:first,.page ul a:last{
+    float:left;
+    display:inline-block;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:rgb(215, 215, 217);
+    text-align:center;
+    line-height:40px;
+    margin-right:10px;
+    font-family: "microsoft yahei" simhei sans-serif;
+}
+
+#pageTips {
+    float:right;
+}
+
+
+
+ 
+            .pages a,  
+            .pages span {  
+                display: inline-block;  
+                padding: 2px 5px;  
+                margin: 0 1px;  
+                border: 1px solid #f0f0f0;  
+                -webkit-border-radius: 3px;  
+                -moz-border-radius: 3px;  
+                border-radius: 3px;  
+            }  
+              
+            .pages a,  
+            .pages li {  
+                display: inline-block;  
+                list-style: none;  
+                text-decoration: none;  
+                color: #58A0D3;  
+            }  
+              
+            .pages a.first,  
+            .pages a.prev,  
+            .pages a.next,  
+            .pages a.end {  
+                margin: 0;  
+            }  
+              
+            .pages a:hover {  
+                border-color: #50A8E6;  
+            }  
+              
+            .pages span.current {  
+                background: #50A8E6;  
+                color: #FFF;  
+                font-weight: 700;  
+                border-color: #50A8E6;  
+            }  
+
+

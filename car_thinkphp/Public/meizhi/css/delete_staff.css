@@ -1,0 +1,49 @@
+
+ input{
+	border-radius: 5px;
+	border: solid darkgrey 1px;
+	cursor:pointer;
+}
+
+.div1{
+	float: left;
+	margin-right: 20px;
+}
+.div3{
+	padding-top: 140px;
+	
+}
+.div4{
+	margin-top: 20px;
+}
+.div5{
+	margin-top: 20px;
+}
+.choice_add_people{
+  width: 220px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.register1{
+	width: 300px;
+	height: 40px;
+	margin: 0 auto;
+}
+.search_submit{
+	width: 60px;
+	height: 25px;
+	color: white;
+	background: orangered;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+.search_button{
+	width: 100px;
+	height: 40px;
+	margin: 0 auto;
+	padding-top: 160px;
+	margin-bottom: 50px;
+	
+}
+

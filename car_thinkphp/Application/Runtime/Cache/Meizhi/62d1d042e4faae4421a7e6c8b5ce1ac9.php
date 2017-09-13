@@ -1,0 +1,78 @@
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>员工人数</title>
+		<link rel="stylesheet" href="/Public/meizhi/css/CssReset.css" />
+		<script type="text/javascript" src="/Public/meizhi/jquery-2.1.1/jquery.js" ></script>
+		<script type="text/javascript" src="/Public/meizhi/jquery-2.1.1/jquery.min.js" ></script>
+	<!--	<script type="text/javascript" src="/Public/Meizhi/js/revise_password.js" ></script>-->
+	<!--	<script type="text/javascript" src="/Public/meizhi/js/echarts.js" ></script>-->
+	</head>
+	<body style="background: #f0f0f0;">
+		<script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+	
+		<div id="picturePlace" style=" height: 400px; width: 1000px;"><div>
+	</body>
+</html>
+<script type="text/javascript">  
+        
+        var salesman_number=<?php echo ($salesman_number); ?>;  
+        var treasurer_number=<?php echo ($treasurer_number); ?>;
+        require.config({  
+            paths:{   
+            	echarts:'http://echarts.baidu.com/build/dist'
+            }  
+        });        
+         require(  
+            [  
+                'echarts',  
+                'echarts/chart/pie'
+            ],  
+            function (ec) {  
+                var myChart = ec.init(document.getElementById('picturePlace'));   
+                  
+                option = {
+						    tooltip: {
+						        trigger: 'item',
+						        formatter: "{a} <br/>{b}: {c} ({d}%)"
+						    },
+						    legend: {
+						        orient: 'vertical',
+						        x: 'left',
+						        data:['业务员','财务员']
+						    },
+						    series: [
+						        {
+						            type:'pie',
+						            radius: ['50%', '70%'],
+						            avoidLabelOverlap: false,
+						            label: {
+						                normal: {
+						                    show: false,
+						                    position: 'center'
+						                },
+						                emphasis: {
+						                    show: true,
+						                    textStyle: {
+						                        fontSize: '50',
+						                        fontWeight: 'bold'
+						                    }
+						                }
+						            },
+						            labelLine: {
+						                normal: {
+						                    show: false
+						                }
+						            },
+						            data:[
+						                {value:salesman_number, name:'业务员'},
+						                {value:treasurer_number, name:'财务员'}
+						            ]
+						        }
+						    ]
+						};
+                myChart.setOption(option);
+            }  
+        );  
+</script>

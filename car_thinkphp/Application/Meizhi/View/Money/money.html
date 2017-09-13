@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>计算利润</title>
+		<link rel="stylesheet" href="__PUBLIC__/meizhi/css/CssReset.css" />
+		<script type="text/javascript" src="__PUBLIC__/meizhi/jquery-2.1.1/jquery.js" ></script>
+		<script type="text/javascript" src="__PUBLIC__/meizhi/jquery-2.1.1/jquery.min.js" ></script>
+	<!--	<script type="text/javascript" src="__PUBLIC__/Meizhi/js/revise_password.js" ></script>-->
+	<!--	<script type="text/javascript" src="__PUBLIC__/meizhi/js/echarts.js" ></script>-->
+	</head>
+	<body style="background: #f0f0f0;">
+		<script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+	
+		<div id="picturePlace" style=" height: 400px; width: 1000px;"><div>
+	</body>
+	
+</html>
+<script type="text/javascript">  
+//      var month1={$sum_sale_01}-{$sum_01};  
+//      var month2={$sum_sale_02}-{$sum_02};
+//      var month3={$sum_sale_03}-{$sum_03};
+//      var month4={$sum_sale_04}-{$sum_04};
+//      var month5={$sum_sale_05}-{$sum_05};
+//      var month6={$sum_sale_06}-{$sum_06};
+//      var month7={$sum_sale_07}-{$sum_07};  
+//      var month8={$sum_sale_08}-{$sum_08};
+//      var month9={$sum_sale_09}-{$sum_09};
+//      var month10={$sum_sale_10}-{$sum_10};
+//      var month11={$sum_sale_11}-{$sum_11};
+//      var month12={$sum_sale_12}-{$sum_12};
+        
+		month1={$month1};
+		month2={$month2};
+		month3={$month3};
+		month4={$month4};
+		month5={$month5};
+		month6={$month6};
+		month7={$month7};
+		month8={$month8};
+		month9={$month9};
+		month10={$month10};
+		month11={$month11};
+		month12={$month12};
+
+        require.config({  
+            paths:{   
+            	echarts:'http://echarts.baidu.com/build/dist'
+            }  
+        });        
+        require(  
+            [  
+                'echarts',  
+                'echarts/chart/line' 
+            ],  
+            function (ec) {  
+                var myChart = ec.init(document.getElementById('picturePlace'));   
+                  
+					option = {
+					    title: {
+					        text: '计算今年的利润'
+					    },
+					    tooltip: {
+					        trigger: 'axis'
+					    },
+					    legend: {
+					        data:['利润线']
+					    },
+					    grid: {
+					        left: '3%',
+					        right: '4%',
+					        bottom: '3%',
+					        containLabel: true
+					    },
+					    toolbox: {
+					        feature: {
+					            saveAsImage: {}
+					        }
+					    },
+					    xAxis: {
+					        type: 'category',
+					        data: ['一月', '二月', '三月', '四月', '五月', '六月', '七月','八月','九月','十月','十一月','十二月']
+					    },
+					    yAxis: {
+					        type: 'value'
+					    },
+					    series: [
+					        {
+					            name:'利润线',
+					            type:'line',
+					           // step: 'start',
+					            data:[{$month1}, {$month2}, {$month3}, {$month4}, {$month5}, {$month6}, {$month7},{$month8}, {$month9}, {$month10}, {$month11}, {$month12}]
+					        },
+					    ]
+					};
+                myChart.setOption(option);
+            }  
+        );  
+  </script>
